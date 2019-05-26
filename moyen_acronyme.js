@@ -38,7 +38,6 @@ acronyme = (phrase) => {
   ✓ retourne DTJR pour "Dépêche toi j'ai rendez-vous"
   ✓ retourne LGVFPTC pour "Les "guillemets" vont faire planter ton code" (1ms)
 */
-
 console.log(acronyme("JavaScript est vraiment top"));
 console.log(acronyme("toute une phrase en minuscule"));
 console.log(acronyme("TU PEUX AUSSI TOUT ECRIRE EN MAJUSCULE"));
