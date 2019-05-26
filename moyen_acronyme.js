@@ -13,7 +13,7 @@ Convertissez une phrase donnée en son acronyme.
 acronyme = (phrase) => {
 
     // Nettoyer la chaîne de carractère en enlevant les guillemets
-    let phraseNet = phrase.replace(/\"/g,'');    
+    let phraseNet = phrase.replace(/\"/g,'');  
 
     // diviser la chaîne de caractères et obtenir un tableau de sous-chaîne
    let phraseSplit = phraseNet.split(" ");
